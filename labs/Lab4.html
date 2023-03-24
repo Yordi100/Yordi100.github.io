@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+		/*Write your CSS code here*/
+		.letter{
+			width: 100px;
+			height: 100px;
+			border: 3px solid blue;
+      font-size:100px;
+		}
+
+    #y{
+      transition: height 2s, background-color 4s;
+      color:purple;
+    }
+    #y:hover{
+      background-color:blue;
+      height: 200px;
+    }
+    #o{
+      transition: width 4s, background-color 2s, border-width 2s;
+    }
+    
+    #o:hover{
+      background-color:yellow;
+      width:600px;
+      border-width:20px;
+    }
+
+    #r{
+      transition: height 3s, background-color 3s;
+      color: yellow;
+    }
+    #r:hover{
+      background-color: pink;
+      height: 250px;
+    }
+
+    #d{
+      transition: width 4s, background-color 5s, border-width 4s;
+    }
+    
+    #d:hover{
+      background-color:green;
+      width:400px;
+      border-width:30px;
+    }
+
+    #i{
+      transition: width 3s, background-color 2s, border-width 5s;
+    }
+    
+    #i:hover{
+      background-color:pink;
+      width:600px;
+      border-width:30px;
+    }
+
+	</style>
+	
+	
+	
+</head>
+
+<body>
+		<p>Hover over each letter to see the transition effect:</p>
+
+	<div id = "y" class = "letter">y</div>
+  
+  <div id = "o" class = "letter">o</div>
+
+  <div id = "r" class = "letter">r</div>
+
+  <div id = "d" class = "letter">d</div>
+
+  <div id = "i" class = "letter">i</div>
+</body>
+</html>
